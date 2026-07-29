@@ -7,6 +7,6 @@
   "type": "anime-torrent-provider",
   "language": "javascript",
   "lang": "en",
-  "manifestURI": "",
-  "payload": "async function search(query) { const res = await fetch('https://nyaa.si/?f=0&c=1_2&q=' + encodeURIComponent(query) + '&page=rss'); const text = await res.text(); return []; }"
+  "manifestURI": "https://raw.githubusercontent.com/purboyy/Seanime-Extention-Marketplace/main/manifest.json",
+  "payload": "async function search(query) { const url = 'https://nyaa.si/?f=0&c=1_2&q=' + encodeURIComponent(query) + '&page=rss'; const res = await fetch(url); const text = await res.text(); return []; }"
 }
