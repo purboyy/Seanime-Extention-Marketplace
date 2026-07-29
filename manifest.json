@@ -8,5 +8,6 @@
   "language": "javascript",
   "lang": "en",
   "manifestURI": "https://raw.githubusercontent.com/purboyy/Seanime-Extention-Marketplace/main/manifest.json",
-  "payload": "async function search(query) { const url = 'https://nyaa.si/?f=0&c=1_2&q=' + encodeURIComponent(query) + '&page=rss'; const res = await fetch(url); const text = await res.text(); return []; }"
+  "payloadURI": "https://raw.githubusercontent.com/purboyy/Seanime-Extention-Marketplace/main/index.js",
+  "payload": ""
 }
