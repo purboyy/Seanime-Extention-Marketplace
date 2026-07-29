@@ -777,14 +777,13 @@
     "website": "https://www.mangaupdates.com/"
   },
   {
-    "id": "nyaa",
-    "name": "Nyaa",
-    "description": "Nyaa provider for english-translated torrents",
-    "manifestURI": "https://raw.githubusercontent.com/5rahim/seanime-extensions/refs/heads/main/anime-torrent-providers/nyaa/nyaa.json",
-    "author": "Seanime",
+    "id": "purboyy-nyaa-provider",
+    "name": "Custom Nyaa Provider",
+    "description": "Custom Nyaa torrent provider for Seanime",
+    "author": "purboyy",
+    "manifestURI": "https://raw.githubusercontent.com/purboyy/Seanime-Extention-Marketplace/main/nyaa-custom.json",
     "type": "anime-torrent-provider",
-    "icon": "https://raw.githubusercontent.com/5rahim/hibike/main/icons/nyaa.png",
     "language": "typescript",
-    "lang": "multi"
+    "lang": "en"
   }
 ]
