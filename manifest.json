@@ -1,0 +1,12 @@
+{
+  "id": "nyaa-torrent-provider",
+  "name": "Nyaa Torrent Provider",
+  "description": "Custom Nyaa provider for Seanime",
+  "version": "1.0.0",
+  "author": "purboyy",
+  "type": "anime-torrent-provider",
+  "language": "javascript",
+  "lang": "en",
+  "manifestURI": "",
+  "payload": "async function search(query) { const res = await fetch('https://nyaa.si/?f=0&c=1_2&q=' + encodeURIComponent(query) + '&page=rss'); const text = await res.text(); return []; }"
+}
