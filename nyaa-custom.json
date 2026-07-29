@@ -2,7 +2,7 @@
   "id": "purboyy-nyaa-provider",
   "name": "Custom Nyaa Provider",
   "description": "Custom Nyaa torrent provider for Seanime",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "purboyy",
   "type": "anime-torrent-provider",
   "language": "typescript",
